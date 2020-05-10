@@ -7,7 +7,7 @@ This app allows you to save GitHub repos and keep track of their stats, Issues a
 ## Install
 
 Just run `yarn` to install dependencies and `yarn start` to serve the application 
-on `http://localhost:3000`.
+on http://localhost:3000.
 
 ## Acknowledgment
 
