@@ -52,11 +52,11 @@ const Repository: React.FC = () => {
   return (
     <>
       <Header>
-        <img src={logoImg} alt="Github Explorer" />
+        <img src={logoImg} alt="GitHub Explorer" />
 
         <Link to="/">
           <FiChevronLeft size={16} />
-          Voltar
+          Go back
         </Link>
       </Header>
 
@@ -85,7 +85,7 @@ const Repository: React.FC = () => {
             </li>
             <li>
               <strong>{repository.open_issues_count}</strong>
-              <span>Issues abertas</span>
+              <span>Open Issues</span>
             </li>
           </ul>
         </RepositoryInfo>
